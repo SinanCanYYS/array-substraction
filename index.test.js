@@ -1,6 +1,6 @@
 const arrayDiff = require('./index')
 
-it('should return a string', () => {
-  const str = mumbling('SinanCan')
-  expect(str).toBe('S-Ii-Nnn-Aaaa-Nnnnn-Cccccc-Aaaaaaa-Nnnnnnnn')
+it('should return that string', () => {
+  const str = arrayDiff([1,2,2,2,2,2,2,3,3,3,3,3,3,3,4],[1,2,3])
+  expect(str).toBe([3,4])
 })
