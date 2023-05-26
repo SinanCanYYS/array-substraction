@@ -1,6 +1,6 @@
 {
   "name": "array-substraction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm library that extracts an array from another...",
   "main": "index.js",
   "scripts": {
